@@ -1,10 +1,9 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://frankenbot.github.io/"
 languageCode = "en-us"
-title = "Agency"
+title = "frankenbot"
+themeDir = "themes"
 theme = "hugo-agency-theme"
-
-publishDir = "docs"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -77,9 +76,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "FRANKENBOT"
+    subtitle = "Welcome to our website!"
+    buttonText = "About"
 
 
   # Services section
