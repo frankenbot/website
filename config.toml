@@ -46,12 +46,12 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Team Frankenbot"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    portfolio = "The Robot Competition"
+    about = "Timeline"
     team = "Team"
     contact = "Contact"
 
@@ -61,14 +61,14 @@ googleAnalytics = ""
 
     # prepended links
     #[[menu.prepend]]
-    #  url = "http://gohugo.io"
+    #  url = "http://localhost:1313/#"
     #  name = "Hugo"
     #  weight = 10
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "http://projectlab.engphys.ubc.ca/enph253-2017/competition-2017/"
+      name = "ENPH 253"
       weight = 10
 
 
@@ -83,7 +83,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -114,20 +114,20 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "The Robot Competition"
+    subtitle = "Click the images below to learn more about the competition, the robot, and our learning experience."
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close"
 
 
     # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Timeline"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
