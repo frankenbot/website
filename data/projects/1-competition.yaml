@@ -3,4 +3,8 @@ title: About the Competition
 subtitle: UBC ENPH 253 Robotics Course
 img: ""
 preview: startup-framework-preview.png
-description: Competition Rules [here](http://projectlab.engphys.ubc.ca/enph253-2017/competition-2017/).
+description: 
+|
+  The 2017 Mission Impossibots Competition is the 17th annual robotics design course and competition held by UBC Engineering Physics.  Teams of four students spent 6 weeks designing and building a robot that could complete the following tasks:
+  <br> <br> -Navigate a 8 x 8 ft playing surface by tape-following along black tape laid out on the surface that forms a path to the captured agents. <br> -Enter the “lair” at the correct time by going through an alarmed door.  The door is disarmed in conjunction with a change in an adjacent IR blaster’s frequency. (An IR signal of 1 kHz meant the door was unarmed and could be passed through, while a 10 kHz signal meant it was armed.) <br> - Pick up six “agents” (bath toys) from planks situated around a 22” diameter plastic bowl filled with water.  One minute after the competition commences, agents will begin dropping into the bowl of water at five second intervals. <br> - Once retrieved, send said agents down a zipline to safety.
+  A full set of competition rules provided to students by instructors can be viewed [here](https://docs.google.com/document/d/1g9UG_ID7YxdN3Vdt_oRrXJgGzr4VSbbwLGS0zG9mbSA/edit).
