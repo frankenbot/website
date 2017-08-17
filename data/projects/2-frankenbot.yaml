@@ -138,8 +138,6 @@ description:
     Still it was evident that the servo motor was fatigued when used continuously.  
     If we were to rebuild the robot, we will redesign the retrieval arm by installing a spring under the arm
     to counter the weight of the claw, shortening the arm, or reducing weight at the claw end.
-    
-    _How it retrieved agents (show video)_
 
     ##### Plank Detection
     

@@ -6,6 +6,9 @@
         <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
         <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
+      <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+        <iframe src="//www.youtube.com/embed/w7Ft2ymGmfc?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+      </div>
     </div>
     {{ range .Site.Params.services.row }}
       <div class="row text-center">
