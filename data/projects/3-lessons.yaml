@@ -3,4 +3,51 @@ title: Lessons Learned
 subtitle: What we did well and how we can improve
 img: ""
 preview: treehouse-preview.png
-description: Things we learned...
+description: 
+  |
+
+  <br> <i> "If you want to go fast, go alone. If you want to go far, go together" </i>
+  ##### Teamwork
+  It is arguable that one of the most important lessons we learned was how to work as a <b> team</b>! We were respectful and understanding of one another, carefully considered each other's input and incorporated fun into team building activities! 
+  ##### Communication
+  We also learned that communication is incredibly important. We found that constant communication about progress and part development led to a well informed team. We were able to help each other debug since we already knew the status of each concurrent task. We also found it incredibly valuable to communicate effectively with the instructors and TAs. When we were able to explain our designs and difficulties in such a way that people external to our team could understand, we saw that we received much more helpful advice. We also recognize that our instructors and TAs have much more experience than our team combined so we were very open to feedback. Our willingness to learn from our mentors played a huge role in our success.
+  <br> <br> <IMG SRC="https://lh6.googleusercontent.com/2L66-4AajKJy229KPtmN9Hygr465qyeVFqhbJZf0PqXwjJ5uFG-qtfIgU6ekaCFj67IhzR-u9UCq2Qc=w1920-h948-rw" ALT="Sorry! This photo didn't load properly" style="border:1px solid black" width="500" height="320"> <br> <br>
+  
+
+  ### Electrical 
+  <br>  Messy wirings = <i><b>headaches</b></i>  later <br> 
+  ##### Connection Troubles
+  Connections are <b> so </b> important. Ensuring that all of our PCBs passed continuity checks and had proper connections probably saved us hours debugging. Unfortunately we learned the hard way that we should have done this for all connections, including wires and cables connecting between the TINAH microcontroller and PCBs. Insecure connections between connecting cables was the root of many of our electrical problems and we wish we had soldered reliable connections earlier on. <br>
+  ##### Facilitating the Debugging process early on
+  When soldering PCBs, we made sure that we followed a colour code for wirings and used the same power rail system. This helped us tremendously because all of us could understand the circuits at a moment's glance. This meant that we didn't need to wait for the person who initially designed the circuit to debug it if we ran into problems. We felt it was good practice to leave our circuits tidy enough so that anyone could step in at a moment's notice and have minimal trouble transferring roles.
+  <br><br> Since we were relatively inexperienced going into this course, we had limited debugging experience. Throughout the summer, however, we developed many techniques for debugging circuits in a timely manner. 
+  ##### Tips and Lessons Learned: 
+  -First, check continuity between all wirings <br> - Use a DMM to check power for all critical PCBs. Is ground grounded? Is 16V, 16V? <br> - Is there a common ground connected between the microcontroller and PCBs? <br> - Are all of the components still functional? Transistors? Op Amps? <br> <br>
+  <IMG SRC="https://lh5.googleusercontent.com/DzexYf4mR5IEuVnocIwGzxO79iwzxP3axTzmtG4hMawMBNApKC1hxrjpdFAYmsJVu_rvaPflUm3MqTA=w1920-h948-rw" ALT="Sorry! This photo didn't load properly" style="border:1px solid black" width="500" height="320"> <br> <br>
+  
+  ### Mechanical
+  <br> <i> <b> Simple </b> </i> is best 
+  <br> <br> We appreciated how easy our chassis was to assemble. The different faces of the chassis snapped together in a tight, secure binding. Although the chassis was strong, it was also easy enough to remove one of the faces and access the circuits beneath. This is something that we are proud of. Unfortunately, we recognize that our winch and arm mechanisms were not as simple to assemble. Both mechanisms took up to an hour to assemble from scratch whereas the chassis took about three minutes. Granted, the arm and winch mechanisms had more components than the chassis, but we recognize that we could have made it simpler. This is something we will keep in mind in future years.
+  ##### Prototyping and Integration 
+  We learned that you can never prototype too early. Although we went through several iterations of our winch and arm mechanisms, we recognize that it is easy to overlook small details that an OnShape or SolidWorks model might miss. <br> <br> Although we were warned, we were astonished to see how easily the modification of a component in one area of the robot often affects another system that is seemingly unrelated. To combat this we made sure we integrated each component separately so that we could isolate problems and debug faster. 
+  ##### Tips and Lessons Learned: 
+  -Simple designs are <i> always </i> better than complicated designs <br> - Easy to assemble mechanisms will save you later <br> - Prototype often and as early as possible <br> - Integrate components one at a time to isolate problems <br>
+  <br> <br> <IMG SRC="https://lh3.googleusercontent.com/xBYzfjboeZf8uX_zoKvrCig0O-xgqgpk1vMZPnYpaV8Woj0SXUQrhUf0E0Rr6s-4pTJdkYDu4VKBx6o=w1920-h948-rw" ALT="Sorry! This photo didn't load properly" style="border:1px solid black" width="500" height="320"> <br> <br>
+  
+  ### Software
+  <br> Readable code saves <i><b> hours </b></i> later <br>
+  ##### Testing and Debugging
+  We tested our software in very small chunks. We would test each addition to the software extensively before adding the next sections. We also divided each section of the competition into different 'states'. Our use of modular code was very effective since it made testing and debugging simpler. We also emphasized the importance of readable code to ensure that all team members could understand it easily and start editing at a moment's notice.
+  <br> <br> We also attribute a lot of our software success to the use of hardware when debugging. We used the microcontroller's digital LCD display to print statements so that we knew what Frankenbot was trying to do at all times. In addition, we used a buzzer to send a loud 'beep' at critical points in our code. This helped us rule out problems and find the core problems faster.
+  ##### Four Software Experts
+  All four of us were heavily involved in the software development. This was an asset since all of us could make adjustments when needed. We also appreciated this when debugging since we each caught different bugs in the code.
+  ##### Tips and Lessons Learned:
+  -Create modules to isolate tasks and bugs <br> -Write readable code so that others can understand <br> -The more eyes searching for bugs, the better <br> - Test code in small pieces <br> <br>
+  <br> <br> <IMG SRC="https://lh4.googleusercontent.com/yrEdcWxAW4bjNYwLmaOug7YYtHX30cUN6NrOjn2g7JVdlRUUKBoEL08lX2g3_Q1yxY9oL5PnBn8h9yc=w1920-h948-rw" ALT="Sorry! This photo didn't load properly" style="border:1px solid black" width="500" height="320">
+  
+     
+  
+  
+  
+  
+  
