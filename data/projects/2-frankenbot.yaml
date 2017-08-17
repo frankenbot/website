@@ -37,7 +37,7 @@ description:
     
     A software based PID (proportinal-integral-drivative) control was used for navigation along the tape.
     The PID was tuned through extensive testing, from which we found that the effects of 
-    integral and derivative control were negligeable for this simple system.
+    integral and derivative control were negligible for this simple system.
 
     **Main challenges**  
     
@@ -159,43 +159,45 @@ description:
 
     #### Send Agents Down the Zipline
     
-    ![alt text](/img/portfolio/meetfrankenbot/tuningPlankDetectors.png "tuning plank detection")  
+    ![alt text](/img/portfolio/meetfrankenbot/zipline.png "zipline")  
     Once rescued from the tank, the six agents had to be freed from captivity
-    by sending them safely down a metal rod
+    by traveling down a metal rod.
     
-    ##### Lifter
+    ##### Bucket
     
+    **How we did it**
+    
+    ![alt text](/img/portfolio/meetfrankenbot/bucket.png "bucket")  
+    Frankenbot has a yellow polypropylene bucket in which he places the agents as
+    he rescues them out of the water tank. This bucket has a hook with ball bearings
+    around a hollow aluminum rod, helping the bucket roll smoothly down the zipline.
+    O-rings were used to hold the ball bearings in place.
+    
+    ##### Bucket Lifter
+        
     [Click here](https://cad.onshape.com/documents/e98b69ac059f99b30a6500c9/w/1b042e790ec5e8dabe7a7bc1/e/caffcd26f576963c07f32388)
     to see the full design on Onshape
     
     **How we did it**  
-    Frankenbot . . .
+
+    ![alt text](/img/portfolio/meetfrankenbot/winch1.png "first lifter prototype")  
+    Frankenbot lifts the bucket onto the zipline using a winch mechanism consisting of a DC motor
+    powered through an H-bridge circuit, and a pulley that is fastened to a rotating square shaft
+    connected to the lifter arms.
+    
+    ![alt text](/img/portfolio/meetfrankenbot/winch2.png "second lifter prototype")  
+    To detect the zipline, Frankenbot uses the two yellow polypropylene flaps
+    at the end of the lifter arms, with a collision switch behind each.
+    Frankenbot corrects his orientation relative to the zipline using these switches.
     
     **Main Challenges**
-    Iterations of pulley size due to torque problems (failing on 6 agents)
-    torque calculations were done on a winch that had a 20% smaller diameter, therefore needed to increase size of pulley
-    Size restrictions due to other limitations (arm placement, overall height limit of robot)
-    Video of it lifting successfully
+    
+    ![alt text](/img/portfolio/meetfrankenbot/winch3.png "final lifter")  
+    The initial torque calculations were done on a winch that had a 20% smaller diameter,
+    so the first lifter prototype caused too much strain on the DC motor, which could only lift
+    a maximum of four agents. We attempted to increase the diameter of the pulley,
+    but this was limited by the arm that would rotate right above the pulley
+    and by the overall height restriction of the robot. In the end, we were able to 
+    lighten the load on the winch by exchanging the steel rod on the bucket hook with
+    a hollow aluminum rod, thereby reducing the weight.
 
-    ##### Bucket
-    
-    **How we did it**
-    Very light
-    Polypropylene
-    Hollow Aluminum rod used as the axle
-    Ball bearings allowed the bucket to roll smoothly
-    Angle of axle was tuned so that the weight was balanced out
-    O-rings used to hold the ball bearings in place
-    Overly big eliminated the risk of agents bouncing or falling out
-    
-    **Main Challenges**  
-    - bucket stoppers getting caught on lifter arms
-    
-
-    ##### Zipline Detection
-    
-    **How we did it**  
-    Used collision switches to detect the zipline and adjust accordingly
-
-    Very good at correcting (maybe we can trim a video we have into a gif demonstrating this and embed that next to the description)
-    Show general logic (if this touches rotate this way, etc)
