@@ -83,7 +83,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "UBC Engineering Physics 253 Robot Competition 2017."
 

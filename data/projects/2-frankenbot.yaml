@@ -1,7 +1,6 @@
 modalID: 2
 title: MEET FRANKENBOT!
 subtitle: The autonomous rescue-bot
-img: ""
 preview: meetfrankenbot/frankenbotIsometric.png
 description:
   |
@@ -160,8 +159,9 @@ description:
 
     #### Send Agents Down the Zipline
     
-    Once rescued from the tank, the six agents had to be sent safely down a metal rod
-    and out of the captivator
+    ![alt text](/img/portfolio/meetfrankenbot/tuningPlankDetectors.png "tuning plank detection")  
+    Once rescued from the tank, the six agents had to be freed from captivity
+    by sending them safely down a metal rod
     
     ##### Lifter
     
