@@ -24,7 +24,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "frankenbotIcon.ico"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
