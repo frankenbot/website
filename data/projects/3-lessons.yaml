@@ -44,6 +44,13 @@ description:
   -Create modules to isolate tasks and bugs <br> -Write readable code so that others can understand <br> -The more eyes searching for bugs, the better <br> - Test code in small pieces <br> <br>
   <br> <br> <IMG SRC="/img/portfolio/lessonslearned/adjustmentsSm.png" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="320">
   
+  ### Competition
+
+  Although Frankenbot was completing the challenge very quickly and reliably before competition, he didn't perform as well the day of competition. The week leading up to the competition, Frankenbot would rescue all of the agents and send them down the zipline 95% of the time. He was also relatively quick, completing the course in 50-60 seconds. 
+  <br> <br> At the start of the competition, Frankenbot won both face-offs in round robin. Because of this, Frankenbot was sent to the elimination rounds. During the quarterfinals, however, Frankenbot's grip around one agent slipped. Since Frankenbot rescued five agents and our opponent rescued six, we were eliminated. 
+  <br> <br> Losing in the quarterfinals was a great learning experience for us because we realized that reliability is imperative. Even though Frankenbot was consistent before the competition, his components were fatigued by the time competition day came and his arm was not as reliable as it once was. Now we understand the value of resilient parts and designing for wear and tear. We know that if our servo motors on Frankenbot's arm hadn't been under so much strain, we might have had more success. 
+  ##### Thank you
+  Regardless, we had a very fun time building Frankenbot. We want to thank our professors Andre Marziali, Jon Nakane and Bernhard Zender for their guidance throughout the summer. We would also like to thank our patient TAs, Connor Shannon, Reily Blackner and Connor Haberl. Thanks for the fun summer! 
      
   
   
