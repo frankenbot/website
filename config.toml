@@ -198,52 +198,39 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Meet our team"
+    description = "We are Engineering Physics students at the University of British Columbia.  Engineering Physics is a department in the faculty of Applied Science at UBC that seeks to provide training in both electrical and mechanical engineering along with building a strong foundation in mathematics, physics, and applied technologies."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+      img = "adam.jpg"
+      name = "Adam Fink"
+        social = [
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+      img = "ashley.jpg"
+      name = "Ashley Lloyd"
+        social = [
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
+      img = "rika.jpg"
+      name = "Rika SD"
+        social = [
         ["fa-linkedin", "#"]
       ]
+
+    [[params.team.members]]
+    img = "rhiannon.jpg"
+    name = "Rhiannon Holmes"
+      social = [
+      ["fa-linkedin", "#"]
+    ]
 
   # Client section
     [params.clients_list]
