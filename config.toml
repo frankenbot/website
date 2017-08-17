@@ -108,35 +108,89 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Timeline"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "An outline of our progress throughout Summer"
+    endpoint = "Aug 10<br>Competition!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "sketch.jpg"
+      date = "June 1"
+      title = "Brainstorming"
+      description = "We collaborated as a group to design our robot, implementing various sketching techniques to create out of the box ideas."
+
+	[[params.about.events]]
+      img = "name.jpg"
+      date = "June 10-12"
+      title = "Software Development"
+      description = "We determined different stages of the competition and reflected that in our software design to allow for modularity. We also determined the various functions needed, and designed state diagrams for said functions."
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "name.jpg"
+      date = "June 23"
+      title = "Design Proposal"
+      description = "Submitted a document containing a full description of our mechanical, electrical, and software systems including calculations, circuit diagrams, and state diagrams."
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "laser.jpg"
+      date = "June 29"
+      title = "Prototyping"
+      description = "We began prototyping our mechanical systems, including the claw mechanism."
+	  
+	[[params.about.events]]
+      img = "backbone.jpg"
+      date = "July 4-7"
+      title = "Backbone Development"
+      description = "In preparation for tape following, we modeled the chassis, wheels, and gears in Onshape, and laser cut the parts in addition to soldering and testing QRD sensors and H-Bridge circuits. We also built the zipline bucket, and soldered the IR detection circuit with it optimized to detect a 1 kHz signal. "
+	  
+	[[params.about.events]]
+      img = "tapeFollower.jpg"
+      date = "July 11-14"
+      title = "Construction and Extremeties Development"
+      description = "We assembled our first tape following chassis and began tuning PID controls. We also designed and built the winch mechanism that lifts the bucket to the zipline, and designed the retrieval arm."
+	  
+	[[params.about.events]]
+      img = "name.jpg"
+      date = "July 15-16"
+      title = "Software"
+      description = "Wrote the first draft of the code for all stages of the competition in separate files for ease of debugging. We combined the states into a single document during integration."
+	  
+	 [[params.about.events]]
+      img = "zipline.jpg"
+      date = "July 21"
+      title = "Zipline Completion"
+      description = "Zipline mechanism fully controlled by switches."
+	  
+	[[params.about.events]]
+      img = "clawConstruction.jpg"
+      date = "July 24-27"
+      title = "Arms and Eyes"
+      description = "Constructed full retrieval arm and claw prototype and integrated IR sensing into State 1 code."
+	  
+	[[params.about.events]]
+      img = "timeTrials.jpg"
+      date = "July 28"
+      title = "Time Trials"
+      description = "We showcased our progress to the professors, demonstrating functionality in parts because the majority of our systems were not integrated."
+	  
+	[[params.about.events]]
+      img = "arm.jpg"
+      date = "July 31"
+      title = "Retrieval Arm"
+      description = "Debugged the circuit problems with the arm, allowing for first successful retrieval of agent!"
+	  
+	[[params.about.events]]
+      img = "completion.jpg"
+      date = "August 1"
+      title = "Integration Complete"
+      description = "We successfully completed a full run for the first time!"
+	  
+	[[params.about.events]]
+      img = "finalTouches.jpg"
+      date = "August 2-9"
+      title = "Final Touches"
+      description = "Tuned Frankenbot's speed and reliability in preparation for competition."
 
 
   # Team section
