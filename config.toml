@@ -121,7 +121,7 @@ googleAnalytics = ""
       description = "We collaborated as a group to design our robot, implementing various sketching techniques to create out of the box ideas."
 
 	[[params.about.events]]
-      img = "name.jpg"
+      img = "3.jpg"
       date = "June 10-12"
       title = "Software Development"
       description = "We determined different stages of the competition and reflected that in our software design to allow for modularity. We also determined the various functions needed, and designed state diagrams for said functions."
@@ -151,7 +151,7 @@ googleAnalytics = ""
       description = "We assembled our first tape following chassis and began tuning PID controls. We also designed and built the winch mechanism that lifts the bucket to the zipline, and designed the retrieval arm."
 	  
 	[[params.about.events]]
-      img = "name.jpg"
+      img = "3.jpg"
       date = "July 15-16"
       title = "Software"
       description = "Wrote the first draft of the code for all stages of the competition in separate files for ease of debugging. We combined the states into a single document during integration."
@@ -212,7 +212,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "ashley.jpg"
+      img = "ashleyHeadshot.jpg"
       name = "Ashley Lloyd"
         social = [
         ["fa-linkedin", "#"]
