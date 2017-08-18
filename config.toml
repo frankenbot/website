@@ -215,7 +215,7 @@ googleAnalytics = ""
       img = "ashleyHeadshot.jpg"
       name = "Ashley Lloyd"
         social = [
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/ashley-lloyd-9059a6139"]
       ]
 
     [[params.team.members]]
