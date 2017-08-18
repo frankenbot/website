@@ -10,7 +10,7 @@ description:
   It is arguable that one of the most important lessons we learned was how to work as a <b> team</b>! We were respectful and understanding of one another, carefully considered each other's input and incorporated fun into team building activities! 
   ##### Communication
   We also learned that communication is incredibly important. We found that constant communication about progress and part development led to a well informed team. We were able to help each other debug since we already knew the status of each concurrent task. We also found it incredibly valuable to communicate effectively with the instructors and TAs. When we were able to explain our designs and difficulties in such a way that people external to our team could understand, we saw that we received much more helpful advice. We also recognize that our instructors and TAs have much more experience than our team combined so we were very open to feedback. Our willingness to learn from our mentors played a huge role in our success.
-  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/funGroupPic.jpg" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="320"> <br> <br>
+  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/funGroupPic.jpg" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="340"> <br> <br>
   
 
   ### Electrical 
@@ -22,7 +22,7 @@ description:
   <br><br> Since we were relatively inexperienced going into this course, we had limited debugging experience. Throughout the summer, however, we developed many techniques for debugging circuits in a timely manner. 
   ##### Tips and Lessons Learned: 
   -First, check continuity between all wirings <br> - Use a DMM to check power for all critical PCBs. Is ground grounded? Is 16V, 16V? <br> - Is there a common ground connected between the microcontroller and PCBs? <br> - Are all of the components still functional? Transistors? Op Amps? 
-  <br> <br>  <IMG SRC="/img/portfolio/lessonslearned/ircircuit.png" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="320"> <br> <br>
+  <br> <br>  <IMG SRC="/img/portfolio/lessonslearned/ircircuit.png" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="340"> <br> <br>
 
   ### Mechanical
   <br> <i> <b> Simple </b> </i> is best 
@@ -31,7 +31,7 @@ description:
   We learned that you can never prototype too early. Although we went through several iterations of our winch and arm mechanisms, we recognize that it is easy to overlook small details that an OnShape or SolidWorks model might miss. <br> <br> Although we were warned, we were astonished to see how easily the modification of a component in one area of the robot often affects another system that is seemingly unrelated. To combat this we made sure we integrated each component separately so that we could isolate problems and debug faster. 
   ##### Tips and Lessons Learned: 
   -Simple designs are <i> always </i> better than complicated designs <br> - Easy to assemble mechanisms will save you later <br> - Prototype often and as early as possible <br> - Integrate components one at a time to isolate problems <br>
-  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/armCloseUp.jpg" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="320"> <br> <br>
+  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/armCloseUpSmall.jpg" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="340"> <br> <br>
 
   ### Software
   <br> Readable code saves <i><b> hours </b></i> later <br>
@@ -42,7 +42,7 @@ description:
   All four of us were heavily involved in the software development. This was an asset since all of us could make adjustments when needed. We also appreciated this when debugging since we each caught different bugs in the code.
   ##### Tips and Lessons Learned:
   -Create modules to isolate tasks and bugs <br> -Write readable code so that others can understand <br> -The more eyes searching for bugs, the better <br> - Test code in small pieces <br> <br>
-  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/adjustmentsSm.png" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="320">
+  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/adjustmentsSm.png" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="300">
   
   ### Competition
 
@@ -51,5 +51,5 @@ description:
   <br> <br> Losing in the quarterfinals was a great learning experience for us because we realized that reliability is imperative. Even though Frankenbot was consistent before the competition, his components were fatigued by the time competition day came and his arm was not as reliable as it once was. Now we understand the value of resilient parts and designing for wear and tear. We know that if our servo motors on Frankenbot's arm hadn't been under so much strain, we might have had more success. 
   ##### Thank you
   Regardless, we had a very fun time building Frankenbot. We want to thank our professors Andre Marziali, Jon Nakane and Bernhard Zender for their guidance throughout the summer. We would also like to thank our patient TAs, Connor Shannon, Reily Blackner and Connor Haberl. Thanks for the fun summer! <br> <br>
-  
+  <br> <br> <IMG SRC="/img/portfolio/lessonslearned/teamPicSmall.jpg" ALT="Sorry! This photo didn't load properly" style="border:2px solid black" width="500" height="340"> <br> <br>
   
