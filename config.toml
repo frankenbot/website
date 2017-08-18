@@ -219,18 +219,15 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "rika.jpg"
-      name = "Rika SD"
+      img = "rhiannon.jpg"
+      name = "Rhiannon Holmes"
         social = [
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-    img = "rhiannon.jpg"
-    name = "Rhiannon Holmes"
-      social = [
-      ["fa-linkedin", "#"]
-    ]
+      img = "rikaHeadshot.jpg"
+      name = "Rika Sugimoto"
 
   # Client section
     [params.clients_list]
