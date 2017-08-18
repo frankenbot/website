@@ -7,8 +7,8 @@ description:
     ![alt text](/img/portfolio/meetfrankenbot/frankenbotIsometric.png "Frankenbot")
 
     ### Frankenbot's Progress throughout the summer
-    <i> Here is a cute video we made of Frankenbot's growth and the fun summer we had building him! </i> <br> <br>
-    <embed src="/img/portfolio/meetfrankenbot/frankenbot.mp4" autostart="false" height="320" width="500" />
+    <i> Here is a cute video we made of Frankenbot's growth and the fun summer we had building him! </i> <br> 
+    <video src="/img/portfolio/meetfrankenbot/frankenbot.mp4" controls height="320" width="500" />
 
     ### Here is what Frankenbot can do! 
     
