@@ -106,7 +106,11 @@ description:
     to ensure that no part of the robot is blocking the detector.  
     
     ![alt text](/img/portfolio/meetfrankenbot/ircircuit.png "IR detector PCB") <br>
-    ![alt text](/img/portfolio/meetfrankenbot/ircircuitdiagram.png "IR detector diagram") <br>
+
+    Below is a diagram of our IR amplification and filtration circuit designed to detect a 1kHz signal. <br><br>
+
+    <IMG SRC="/img/portfolio/meetfrankenbot/ircircuitdiagram.png" ALT="Sorry! This photo didn't load properly" width="899" height="612">
+
     The band-pass filter was tuned to allow 1 kHz signals to pass through, producing a detector with a 
     high voltage output for 1 kHz and a low output for 10 kHz.
     The gain of the amplifier was adjusted to increase the sensitivity of the detector even from a 
