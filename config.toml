@@ -118,79 +118,79 @@ googleAnalytics = ""
       img = "sketch.jpg"
       date = "June 1"
       title = "Brainstorming"
-      description = "We collaborated as a group to design our robot, implementing various sketching techniques to create out of the box ideas."
+      description = "We collaborated as a group to design our robot, implementing various sketching techniques to create original ideas."
 
 	[[params.about.events]]
       img = "3.jpg"
       date = "June 10-12"
-      title = "Software Development"
-      description = "We determined different stages of the competition and reflected that in our software design to allow for modularity. We also determined the various functions needed, and designed state diagrams for said functions."
+      title = "Software Brainstorming and Organization"
+      description = "We divided the competition into different stages and reflected that in our software design to allow for modularity. We also determined the various functions and classes needed, and designed state diagrams for each function."
 
     [[params.about.events]]
       img = "name.jpg"
       date = "June 23"
       title = "Design Proposal"
-      description = "Submitted a document containing a full description of our mechanical, electrical, and software systems including calculations, circuit diagrams, and state diagrams."
+      description = "Submitted a document containing a full description of our mechanical, electrical, and software systems including torque calculations, circuit diagrams, mechanical sketches and software state diagrams."
 
     [[params.about.events]]
       img = "laser.jpg"
       date = "June 29"
       title = "Prototyping"
-      description = "We began prototyping our mechanical systems, including the claw mechanism."
+      description = "We began prototyping our mechanical parts, including the arm, winch, bucket and claw mechanisms."
 	  
 	[[params.about.events]]
       img = "backbone.jpg"
       date = "July 4-7"
       title = "Backbone Development"
-      description = "In preparation for tape following, we modeled the chassis, wheels, and gears in Onshape, and laser cut the parts in addition to soldering and testing QRD sensors and H-Bridge circuits. We also built the zipline bucket, and soldered the IR detection circuit with it optimized to detect a 1 kHz signal. "
+      description = "In preparation for tape following, we modeled the chassis, wheels, and gears in OnShape, and laser cut the parts in addition to soldering and testing QRD sensors and H-Bridge circuits. We also built the zipline bucket, soldered and optimized the IR detection circuit to detect a 1 kHz signal up to 2.5m away from the IR blaster. "
 	  
 	[[params.about.events]]
       img = "tapeFollower.jpg"
       date = "July 11-14"
       title = "Construction and Extremeties Development"
-      description = "We assembled our first tape following chassis and began tuning PID controls. We also designed and built the winch mechanism that lifts the bucket to the zipline, and designed the retrieval arm."
+      description = "We assembled our first chassis and began tuning PID parameters for tape following. We also built the winch mechanism that lifts the bucket to the zipline and continued the construction of the retrieval arm."
 	  
 	[[params.about.events]]
       img = "3.jpg"
       date = "July 15-16"
-      title = "Software"
-      description = "Wrote the first draft of the code for all stages of the competition in separate files for ease of debugging. We combined the states into a single document during integration."
+      title = "Software Development"
+      description = "We wrote the first full draft of code for each section of the competition in separate files for ease of debugging. We later combined the states into a single document once we tested each section extensively during integration."
 	  
 	 [[params.about.events]]
       img = "zipline.jpg"
       date = "July 21"
       title = "Zipline Completion"
-      description = "Zipline mechanism fully controlled by switches."
+      description = "Zipline mechanism fully complete and controlled by switches."
 	  
 	[[params.about.events]]
       img = "clawConstruction.jpg"
       date = "July 24-27"
       title = "Arms and Eyes"
-      description = "Constructed full retrieval arm and claw prototype and integrated IR sensing into State 1 code."
+      description = "Finished construction of retrieval arm and claw prototype. Started to integrate IR detection into the main code."
 	  
 	[[params.about.events]]
       img = "timeTrials.jpg"
       date = "July 28"
       title = "Time Trials"
-      description = "We showcased our progress to the professors, demonstrating functionality in parts because the majority of our systems were not integrated."
+      description = "We showcased our progress to the instructors, demonstrating functionality in separate parts because the majority of our systems were not fully integrated."
 	  
 	[[params.about.events]]
       img = "arm.jpg"
       date = "July 31"
       title = "Retrieval Arm"
-      description = "Debugged the circuit problems with the arm, allowing for first successful retrieval of agent!"
+      description = "Solved the common ground problem with the retrieval arm, allowing for our first successful rescue of an agent."
 	  
 	[[params.about.events]]
       img = "completion.jpg"
       date = "August 1"
       title = "Integration Complete"
-      description = "We successfully completed a full run for the first time!"
+      description = "We successfully rescued six agents down the zipline for the first time!"
 	  
 	[[params.about.events]]
       img = "finalTouches.jpg"
       date = "August 2-9"
       title = "Final Touches"
-      description = "Tuned Frankenbot's speed and reliability in preparation for competition."
+      description = "Tuned Frankenbot's speed and arm precision in preparation for competition."
 
 
   # Team section
