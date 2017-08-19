@@ -10,6 +10,40 @@ description:
     <i> Here is a cute video we made of Frankenbot's growth and the fun summer we had building him! </i> <br> 
     <video src="/img/portfolio/meetfrankenbot/frankenbot.mp4" controls height="320" width="500" />
 
+    ### Tools and Materials used to build Frankenbot
+    
+    **TINAH Resources**
+    <br> <i> The TINAH microcontroller board executed the software we uploaded and was the "brain" of Frankenbot </i> <br>
+    <br> - 8 Analog Inputs
+    <br> - 16 Digital Inputs
+    <br> - 4 PWM outputs for DC motors
+    <br> - 4 PWM outputs for servo motors
+    <br> <br>
+    **Electrical**
+    <br> <i>Our entire electrical system was designed and soldered on PCBs</i><br>
+    <br> - Lithium-Polymer batteries (1 x 16V, 2 x 8V)
+    <br> - Soldering irons
+    <br> - PCBs
+    <br> - Simple discrete and active components
+    <br> <br>
+    **Mechanical**
+    <br><i>All of our mechanical parts were designed on OnShape and prototyped using the materials available. </i><br>
+    <br> - Long rods (Aluminum, Steel, etc.)
+    <br> - Nuts, bolts, etc.
+    <br> - Various materials (delrin, acrylic, polypropylene, etc.)
+    <br> - OnShape software     
+    <br> <br>
+    **Prototyping Tools**
+    <br><i> We received training on proper use of all the prototyping tools below</i> <br>
+    <br> - Laser cutter
+    <br> - Waterjet cutter
+    <br> - 3D printers
+    <br> - Machine shop tools (lathe, mill, drill, etc.)
+    <br> <br>
+
+    <IMG SRC="/img/portfolio/meetfrankenbot/bolts.jpg" ALT="Sorry! This photo didn't load properly" width="360" height="480"> 
+
+
     ### Here is what Frankenbot can do! 
     
     <br>
@@ -26,7 +60,9 @@ description:
     Rubber tires (not shown) were used to increase friction, facilitating sharp turns and steep climbs.
     
     ![alt text](/img/portfolio/meetfrankenbot/testingHBridge.png "testing H-bridge")  
-    The DC motors were controlled by the TINAH board through an H-bridge circuit so that we could drive at high power.
+    The DC motors were controlled by the TINAH board through an H-bridge circuit (below: <i>Source: ENPH 253 Project Lab Page</i>) so that we could drive at high power. 
+    <br> <br> <IMG SRC="/img/portfolio/meetfrankenbot/zener-h-bridge.png" ALT="Sorry! This photo didn't load properly" width="805" height="452"> 
+
     
     ![alt text](/img/portfolio/meetfrankenbot/tapefollowing1_400.png "tape following with chassis 1")  
     To detect the black tape, we used QRD reflective sensors that read a low voltage on
