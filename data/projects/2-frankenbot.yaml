@@ -27,7 +27,7 @@ description:
     <br> - Simple discrete and active components
     <br> <br>
     **Mechanical**
-    <br><i>All of our mechanical parts were designed on OnShape and prototyped using the materials available. </i><br>
+    <br><i>All of our mechanical parts were designed in OnShape cloud CAD software and prototyped using the materials available. </i><br>
     <br> - Long rods (Aluminum, Steel, etc.)
     <br> - Nuts, bolts, etc.
     <br> - Various materials (delrin, acrylic, polypropylene, etc.)
@@ -99,13 +99,14 @@ description:
         
     **How we did it**  
     Frankenbot's 1kHz IR detector is composed of a phototransistor, high and band-pass filters, amplifiers,
-    and a peak detector.  
+    and a peak detector.
     
     ![alt text](/img/portfolio/meetfrankenbot/irphototransistor.png "phototransistor")  
     The phototransistor was installed at the front of the robot, underneath the bucket,
     to ensure that no part of the robot is blocking the detector.  
     
-    ![alt text](/img/portfolio/meetfrankenbot/ircircuit.png "IR detector PCB")  
+    ![alt text](/img/portfolio/meetfrankenbot/ircircuit.png "IR detector PCB") <br>
+    ![alt text](/img/portfolio/meetfrankenbot/ircircuitdiagram.png "IR detector diagram") <br>
     The band-pass filter was tuned to allow 1 kHz signals to pass through, producing a detector with a 
     high voltage output for 1 kHz and a low output for 10 kHz.
     The gain of the amplifier was adjusted to increase the sensitivity of the detector even from a 
@@ -138,7 +139,7 @@ description:
     ##### Arm
         
     [Click here](https://cad.onshape.com/documents/e98b69ac059f99b30a6500c9/w/1b042e790ec5e8dabe7a7bc1/e/a025136a670819f52d744b4c)
-    to see the full design on Onshape
+    to see the full design in Onshape
     
     **How we did it**  
     Frankenbot has three servo motors controlling the retrieval arm and claw:
@@ -214,7 +215,7 @@ description:
     ##### Bucket Lifter
         
     [Click here](https://cad.onshape.com/documents/e98b69ac059f99b30a6500c9/w/1b042e790ec5e8dabe7a7bc1/e/caffcd26f576963c07f32388)
-    to see the full design on Onshape
+    to see the full design in Onshape
     
     **How we did it**  
 

@@ -6,7 +6,7 @@ themeDir = "themes"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-104972796-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Frankenbot"
+  description = "A report on our UBC Engineering Physics 253 robot competition entry."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -33,7 +33,7 @@ googleAnalytics = ""
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    text = "Please visit [this page](https://frankenbot.github.io)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -208,7 +208,7 @@ googleAnalytics = ""
       img = "adam.jpg"
       name = "Adam Fink"
         social = [
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/adam-fink-8a0a16103"]
       ]
 
     [[params.team.members]]
