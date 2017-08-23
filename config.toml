@@ -222,7 +222,7 @@ googleAnalytics = "UA-104972796-1"
       img = "rhiannon.jpg"
       name = "Rhiannon Holmes"
         social = [
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/rhiannon-holmes-330251104/"]
       ]
 
     [[params.team.members]]
